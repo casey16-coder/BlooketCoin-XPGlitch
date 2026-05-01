@@ -16,7 +16,7 @@ async function addTokens() {
             "authorization": localStorage.token
         },
         body: JSON.stringify({
-            name: await getName(myToken),
+            name: await cayqs_tt(myToken),
             addedTokens: 500,
             addedXp: 300
         })
